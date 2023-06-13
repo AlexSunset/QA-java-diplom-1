@@ -1,8 +1,9 @@
-import java.util.List;
-import praktikum.Database;
-import praktikum.Burger;
 import praktikum.Bun;
+import praktikum.Burger;
+import praktikum.Database;
 import praktikum.Ingredient;
+
+import java.util.List;
 
 import static praktikum.IngredientType.FILLING;
 import static praktikum.IngredientType.SAUCE;
@@ -37,7 +38,7 @@ public class Praktikum {
         burger.removeIngredient(3);
 
         // Распечатаем рецепт бургера
-      //  System.out.println(burger.getReceipt());
+        //  System.out.println(burger.getReceipt());
 
         Burger burgerT = new Burger();
         Bun bunT = new Bun("TestBun", 50);

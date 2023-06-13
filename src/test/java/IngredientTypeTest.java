@@ -5,7 +5,7 @@ import praktikum.IngredientType;
 public class IngredientTypeTest {
 
     @Test
-    public void IngredientTypeHasTwoElements(){
+    public void ingredientTypeHasTwoElements() {
         Assert.assertEquals(2, IngredientType.values().length);
     }
 }

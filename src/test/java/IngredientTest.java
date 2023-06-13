@@ -8,17 +8,17 @@ public class IngredientTest {
     Ingredient ingredient = new Ingredient(IngredientType.SAUCE, "Test", 10);
 
     @Test
-    public void getPriceReturnActualPrice(){
+    public void getPriceReturnActualPrice() {
         Assert.assertEquals(10, ingredient.getPrice(), 0);
     }
 
     @Test
-    public void getNameReturnActualName(){
+    public void getNameReturnActualName() {
         Assert.assertEquals("Test", ingredient.getName());
     }
 
     @Test
-    public void getTypeReturnActualType(){
+    public void getTypeReturnActualType() {
         Assert.assertEquals(IngredientType.SAUCE, ingredient.getType());
     }
 
